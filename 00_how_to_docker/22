@@ -1,0 +1,4 @@
+#first docker-machine ssh Char
+# docker swarm join-token worker     then copy the info needed
+docker-machine ssh Aiur
+docker swarm join --token SWMTKN-1-0aiga99r52no2p7ok84q7i0hhwlfv3tjjkmryt2uel4vpix6il-9tr6fwhcic5zx1k5rjye2gin0 192.168.99.100:2377
