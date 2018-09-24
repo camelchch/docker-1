@@ -1,1 +1,1 @@
-docker-machine create --driver virtualbox Char
+docker-machine -s ~/goinfre/ create --driver virtualbox Char
