@@ -1,1 +1,3 @@
+#first set up vm path on~/goinfre
+#vboxmanage setproperty machinefolder /path/to/directory/
 docker-machine -s ~/goinfre/ create --driver virtualbox Char
