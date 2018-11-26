@@ -1,3 +1,4 @@
 #first set up vm path on~/goinfre
 #vboxmanage setproperty machinefolder /path/to/directory/
-docker-machine -s ~/goinfre/ create --driver virtualbox Char
+#export MACHINE_STORAGE_PATH=/sgoinfre/goinfre/Perso/saxiao/
+docker-machine create --driver virtualbox Char
